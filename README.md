@@ -1,6 +1,3 @@
-[TOC]
-
-#README.md
 
 ## Assumptions
 
