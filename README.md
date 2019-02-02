@@ -1,17 +1,3 @@
-
-## Assumptions
-
-1. Only one user can get access to the vending machine at one time, which means there can only be one process in the vending machine.
-2. The user can only choose one product during one transaction.
-3. The user should insert coins before he can choose the product.
-4. The deal is triggered when the user choose the product.
-5. The types of four coins: 10, 5, 2, 1， the initial store of the four coins in the vending machien are 5, 5, 5, 5
-6. The types of four products are: A, B, C, D, the initial number of the four products are 1, 3, 3, 3
-7. The prices of the products are 25, 13, 8, 12
-8. If there are not enough coins to give back changes, then the deal will fail and return the coins that user inserted.
-9. If the coins that the user insert are not enough, the deal will fail and return the coins that user isnerted.
-10. To save time, I just do the unit test for customer user cases.
-
 ## Introduction
 
 1. Need to be executed with python2,  > 2.7
@@ -27,6 +13,19 @@
    ```bash
    python -m unittest discover -s tests -p "*Test.py"
    ```
+## Assumptions
+
+1. Only one user can get access to the vending machine at one time, which means there can only be one process in the vending machine.
+2. The user can only choose one product during one transaction.
+3. The user should insert coins before he can choose the product.
+4. The deal is triggered when the user choose the product.
+5. The types of four coins: 10, 5, 2, 1， the initial store of the four coins in the vending machien are 5, 5, 5, 5
+6. The types of four products are: A, B, C, D, the initial number of the four products are 1, 3, 3, 3
+7. The prices of the products are 25, 13, 8, 12
+8. If there are not enough coins to give back changes, then the deal will fail and return the coins that user inserted.
+9. If the coins that the user insert are not enough, the deal will fail and return the coins that user isnerted.
+10. To save time, I just do the unit test for customer user cases.
+
 
 ## User cases
 
