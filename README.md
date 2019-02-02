@@ -14,7 +14,7 @@
 
 ## Introduction
 
-1. Need to be executed with python > 2.7
+1. Need to be executed with python2,  > 2.7
 
 2. You can go into the root folder and run the following command:
 
